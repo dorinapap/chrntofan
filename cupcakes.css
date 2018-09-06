@@ -1,0 +1,16 @@
+body {
+  background-image: url("https://image.freepik.com/free-photo/pastel-pink-watercolour-background_1048-6837.jpg");
+}
+
+h3 {
+  color: black;
+  font-style: Chalkduster;
+font-size:40px;
+}
+.navbar-inverse {
+  list-style-type: none;
+  background-color: purple;
+}
+p { color: #4d004d;
+font-style:
+}

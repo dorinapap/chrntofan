@@ -16,13 +16,15 @@
         <a class="navbar-brand" href="#">C'est Bon</a>
         </div>
         <ul class="nav navbar-nav">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">MENU</a></li>
-          <li><a href="#">CATERING</a></li>
-          <li><a href="#">EVENTS</a></li>
-          <li><a href="#">COMMUNICATION</a></li>
+        <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="menu.html">MENU</a></li>
+          <li><a href="events.html">EVENTS</a></li>
+          <li><a href="communication.html">COMMUNICATION</a></li>
+          <li><a href="aboutus.html">ABOUT US</a></li>
           <li><a href="#"><img src="pics/earth.png" height="30" width="30"></a></li>
         </ul>
+</div>
+
         <form class="navbar-form navbar-left" action="/action_page.php">
           <div class="input-group">
             <input type="text" class="form-control" placeholder="Search" name="search">
@@ -35,21 +37,59 @@
         </form>
       </div>
     </nav>
-    <div class="container">
+    <div class="container images">
       <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-6">
           <h3>Latest Events</h3>
           <img src="pics/event.png" class="img-responsive">
           <p>C'est bon started its career in the wedding field. After a successfully organised cupcake catering at the wedding of George Clooney we look forward to engaging more people to our cupcake world of weddings.</p>
 
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-6">
           <h3>New Recipes</h3>
           <img src="pics/images.jpg" class="img-responsive">
           <p> Love is like bubble gum.At first it tastes better than anything you could ever imagine, but after a while it starts losing its flavor. However, when you taste bubble gum in a cupcake this feeling of love never ends.</p>
           </div>
-          <div class="col-sm-4">
+
             <h3>Classic Flavors</h3>
-            <img src="pics/classic.jpg" class="responsive">
+            <div class=" container imagesvol2" class="responsive">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>
+
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="pics/lo.jpg" alt="cake1">
+                    </div>
+
+                    <div class="item">
+                      <img src="pics/io.jpg" alt="cake2">
+                    </div>
+
+                    <div class="item">
+                      <img src="pics/ly.jpg" alt="cake3">
+                    </div>
+                  </div>
+
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+
             <p> Brought up with grandmothers who crafted cake by hand with gifted ability to evoke emotion through their work, continuing their tradition and technique in cake baking allows us to remember those irreplaceable and irresistible traditional flavors such as chocolate, vanilla and strawberry.</p>
           </div>
+            </div>
+              </div>
+            </body>
+            </html>
